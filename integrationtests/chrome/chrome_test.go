@@ -19,7 +19,6 @@ var _ = Describe("Chrome tests", func() {
 			})
 
 			It("downloads a small file", func() {
-				fmt.Println("version", version)
 				chromeTest(
 					version,
 					fmt.Sprintf("https://quic.clemente.io/downloadtest?num=1&len=%d", dataLen),
